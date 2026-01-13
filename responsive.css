@@ -3,6 +3,9 @@
         max-width: 100%;
         height: auto;
     }
+    .card-container{
+    grid-template-columns: repeat(2, 240px);
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar {
@@ -37,6 +40,9 @@
   }
   .features-content{
     margin: 0 10px;
+  }
+      .card-container{
+    grid-template-columns: repeat(1, 240px);
   }
 }
 
