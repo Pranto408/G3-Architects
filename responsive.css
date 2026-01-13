@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .brand {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+}
