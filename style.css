@@ -23,6 +23,7 @@
 header{
     background-color: #FF900E10;
     padding-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 /* Navbar CSS */
@@ -81,4 +82,45 @@ header{
     font-size: 16px;
     color: #727272;
     line-height: 26px;
+}
+/* Feature CSS */
+.features{
+    max-width: 1318px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-images img{
+    border-radius: 8px;
+    max-width: 342px;
+    height: auto;
+}
+.features-content h2{
+    font-size: 2.813rem;
+    font-weight: 500;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.features-content h2 .black{
+    font-weight: bold;
+    color: #131313;
+}
+.features-content h2 .orange{
+    font-weight: bold;
+    color: #FF900E;
+}
+
+.features-content p{
+    line-height: 26px;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
 }
