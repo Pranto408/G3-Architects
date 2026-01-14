@@ -9,6 +9,9 @@
   .sponsors-logo-container{
     grid-template-columns: repeat(3,auto);
 }
+.exp-container {
+flex-direction: column;
+}
 }
 @media screen and (max-width: 768px) {
   .navbar {
@@ -31,7 +34,6 @@
     .banner{
     width: 95%;
     margin-top: 40px;
-
 }
   .nav-links {
     flex-direction: column;
@@ -55,6 +57,26 @@
   }
     .sponsors-logo-container{
     grid-template-columns: repeat(1,auto);
+}
+.exp-img{
+position: static;
+}
+#exp-badge{
+position: static;
+    padding: 15px 12px;
+}
+#exp-badge h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#exp-badge p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.sponsors-logo-container{
+  gap: 40px;
 }
 }
 
