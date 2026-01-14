@@ -6,6 +6,9 @@
     .card-container{
     grid-template-columns: repeat(2, 240px);
   }
+  .sponsors-logo-container{
+    grid-template-columns: repeat(3,auto);
+}
 }
 @media screen and (max-width: 768px) {
   .navbar {
@@ -14,6 +17,12 @@
   }
   .features{
     flex-direction: column;
+  }
+  .sponsors-logo-container{
+    grid-template-columns: repeat(2,auto);
+}
+.features-content{
+    margin: 0 10px;
   }
 }
 
@@ -44,5 +53,8 @@
       .card-container{
     grid-template-columns: repeat(1, 240px);
   }
+    .sponsors-logo-container{
+    grid-template-columns: repeat(1,auto);
+}
 }
 
